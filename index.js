@@ -17,4 +17,4 @@ function generateResult()
   document.querySelector("h1").innerHTML = result;
 }
 
-window.onload = generateResult();
+document.querySelector("#play").addEventListener("click",generateResult);
